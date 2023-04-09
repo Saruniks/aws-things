@@ -5,5 +5,5 @@ import { LambdaDeployStack } from '../lib/lambda-deploy-stack';
 
 const app = new cdk.App();
 new LambdaDeployStack(app, 'LambdaDeployStack', {
-  env: { account: '988317291885', region: 'eu-north-1' },
+  env: { account: '000000000000', region: 'eu-north-1' },
 });
